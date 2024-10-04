@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Botones para Intents Explícitos -->
+        <Button
+            android:id="@+id/btnAction1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Realizar Acción 1" />
+
+        <Button
+            android:id="@+id/btnAction2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Realizar Acción 2" />
+
+        <Button
+            android:id="@+id/btnAction3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Realizar Acción 3" />
+
+        <!-- Botones para Intents Implícitos -->
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar correo electrónico" />
+
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hacer llamada telefónica" />
+
+        <Button
+            android:id="@+id/btnLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abrir mapa en ubicación" />
+
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abrir la cámara" />
+
+        <Button
+            android:id="@+id/btnContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abrir contactos" />
+
+        <Button
+            android:id="@+id/btnCalculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abrir calculadora" />
+
+        <!-- TextView para mostrar resultado de las acciones -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esperando acción..."
+            android:textSize="18sp"
+            android:paddingTop="20dp" />
+    </LinearLayout>
+</ScrollView>
