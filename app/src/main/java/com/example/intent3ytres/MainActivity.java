@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        // Verificar si se recibió alguna acción explícita en el intent
+
         Intent intent = getIntent();
         if (intent != null && intent.hasExtra("action")) {
             String action = intent.getStringExtra("action");

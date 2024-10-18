@@ -9,7 +9,7 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Botones para Intents Explícitos -->
+
         <Button
             android:id="@+id/btnAction1"
             android:layout_width="match_parent"
@@ -28,7 +28,6 @@
             android:layout_height="wrap_content"
             android:text="Realizar Acción 3" />
 
-        <!-- Botones para Intents Implícitos -->
         <Button
             android:id="@+id/btnEmail"
             android:layout_width="match_parent"
@@ -65,7 +64,6 @@
             android:layout_height="wrap_content"
             android:text="Abrir calculadora" />
 
-        <!-- TextView para mostrar resultado de las acciones -->
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
